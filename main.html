@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookly - Recipes</title>
+  style.css
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    images/logo.png
+    <h1>Cookly</h1>
+  </header>
+
+  <!-- Search Section -->
+  <section class="search-section">
+    <label for="search">What ingredients do you have?</label>
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Type an ingredient (e.g., chicken, tomato, pasta)">
+      <button class="search-btn">🔍</button>
+    </div>
+  </section>
+
+  <!-- Recipes Grid -->
+  <section class="recipes">
+    <div class="recipe-card" onclick="toggleRecipe(this)">
+      images/chicken.jpg
+      <h3>Garlic Butter Chicken</h3>
+      <p>Tender chicken breast in a flavorful garlic butter sauce</p>
+      <div class="recipe-details hidden">
+        <p>Ingredients: Chicken, butter, garlic, herbs.</p>
+        <p>Steps: Cook chicken in butter, add garlic and herbs.</p>
+      </div>
+    </div>
+
+    <div class="recipe-card" onclick="toggleRecipe(this)">
+      images/pasta.jpg
+      <h3>Pesto Pasta</h3>
+      <p>Spicy pasta with an sour and zesty taste.</p>
+      <div class="recipe-details hidden">
+        <p>Ingredients: Pasta, pesto, olive oil.</p>
+        <p>Steps: Boil pasta, mix with pesto and olive oil.</p>
+      </div>
+    </div>
+
+    <div class="recipe-card" onclick="toggleRecipe(this)">
+      images/pancakes.jpg
+      <h3>Pancakes</h3>
+      <p>Fluffy homemade pancakes perfect for breakfast.</p>
+      <div class="recipe-details hidden">
+        <p>Ingredients: Flour, eggs, milk, sugar.</p>
+        <p>Steps: Mix ingredients, cook on skillet.</p>
+      </div>
+    </div>
+
+    <!-- Add more recipe cards as needed -->
+  </section>
+
+  script.js</script>
+</body>
+</html>
